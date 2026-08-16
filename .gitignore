@@ -1,0 +1,22 @@
+# Python / Virtual Environment
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Medical Data (NEVER UPLOAD THESE)
+data/
+*.edf
+*.npz
+
+# Deep Learning Models (Too large for GitHub)
+models/*.pth
+
+# API Keys & Secrets
+.env
+secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
